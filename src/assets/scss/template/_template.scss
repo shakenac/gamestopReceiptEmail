@@ -101,6 +101,9 @@ table.button > tbody > tr > td > table > tbody > tr > td {
    }
 
    .productItems {
+      .productInfo {
+         padding-bottom: 0;
+      }
       p {
          margin-top: 3px;
          margin-bottom: 0;
@@ -112,5 +115,17 @@ table.button > tbody > tr > td > table > tbody > tr > td {
       }
    }
 
+   .shippingDetails {
+
+      .shippingNote {
+         th.columns {
+            padding-left: 20px !important;
+         }
+         span {
+            font-weight: 600;
+         }
+      }
+
+   }
 
 }
