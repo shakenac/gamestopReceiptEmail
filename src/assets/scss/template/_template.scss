@@ -9,6 +9,9 @@ h1 {
    margin-bottom: 0;
    padding-bottom: 25px
 }
+h2 {
+   font-weight: 800;
+}
 
 table.button > tbody > tr > td > table > tbody > tr > td {
    text-transform: uppercase;
@@ -48,7 +51,6 @@ table.button > tbody > tr > td > table > tbody > tr > td {
          }
       }
    }
-
    .orderConInfo {
       .columns {
          padding-bottom: 5px;
@@ -62,5 +64,17 @@ table.button > tbody > tr > td > table > tbody > tr > td {
             font-size: 12px;
          }
       }
+   }
+}
+
+
+////// SHIPPING NOW
+
+.shippingNow {
+   border-top: 1px solid #dad3d2;
+
+   th.section-padding {
+      padding-top: 30px;
+      padding-bottom: 30px;
    }
 }
