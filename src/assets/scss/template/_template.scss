@@ -1,6 +1,3 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
-
 // Body Styles
 body,
 html,
@@ -8,17 +5,29 @@ html,
   background: #fff !important;
 }
 
-// HEADER
+td {
+   padding-left: 30px !important;
+   padding-right: 30px !important;
+}
+
+////// HEADER
 
 .header {
-
    td {
       padding-top: 30px !important;
       padding-bottom: 30px !important;
       border-bottom: 1px solid #dad3d2;
    }
-
    img.gamestop-logo  {
       width: 100px;
+   }
+}
+
+
+////// ORDER CONFIRMATION
+
+.orderConfirmation {
+   .thanks {
+
    }
 }
