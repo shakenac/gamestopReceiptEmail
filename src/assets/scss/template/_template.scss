@@ -100,8 +100,14 @@ table.button > tbody > tr > td > table > tbody > tr > td {
 
    .productItems {
       p {
-         margin-top: 5px;
+         font-size: 12px;
+         margin-top: 3px;
          margin-bottom: 0;
+      }
+      .total {
+         p {
+            font-weight: 700;
+         }
       }
    }
 
