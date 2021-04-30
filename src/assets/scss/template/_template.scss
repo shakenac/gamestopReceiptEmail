@@ -11,6 +11,13 @@ html,
 // HEADER
 
 .header {
+
+   td {
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+      border-bottom: 1px solid #dad3d2;
+   }
+
    img.gamestop-logo  {
       width: 100px;
    }
