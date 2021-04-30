@@ -87,17 +87,23 @@ table.button > tbody > tr > td > table > tbody > tr > td {
       padding-bottom: 30px;
    }
 
-   .products {
-      .sectionSubHeader {
-         background: rgb(246, 246, 246);
-         background-color: rgb(246, 246, 246);
-         margin-bottom: 20px;
+   .sectionSubHeader {
+      background: rgb(246, 246, 246);
+      background-color: rgb(246, 246, 246);
+      margin-bottom: 25px;
 
-         th.columns {
-            vertical-align: middle;
-            padding-bottom: 0;
-         }
+      th.columns {
+         vertical-align: middle;
+         padding-bottom: 0;
       }
    }
+
+   .productItems {
+      p {
+         margin-top: 5px;
+         margin-bottom: 0;
+      }
+   }
+
 
 }
