@@ -5,10 +5,13 @@ html,
   background: #fff !important;
 }
 
+h1 {
+   margin-bottom: 0;
+   padding-bottom: 25px
+}
 
 table.button > tbody > tr > td > table > tbody > tr > td {
    text-transform: uppercase;
-   // font-size: 12px;
    font-weight: 700;
 }
 
@@ -37,11 +40,26 @@ table.button > tbody > tr > td > table > tbody > tr > td {
       padding-bottom: 30px;
       padding-left: 30px;
 
-      // .viewEditOrder-btn {
-      //    .button > tbody > tr > td > table > tbody > tr > td {
-      //       padding: 8px;
-      //       border-radius: 15px;
-      //    }
-      // }
+      .viewEditOrder-btn {
+         .columns {
+            padding-top: 14px;
+            padding-bottom: 14px;
+         }
+      }
+   }
+
+   .orderConInfo {
+      .columns {
+         padding-bottom: 5px;
+      }
+
+      .orderNum {
+         font-weight: 700;
+         font-size: 16px;
+         margin-bottom: 0;
+      }
+      p {
+         font-size: 12px;
+      }
    }
 }
