@@ -36,7 +36,9 @@ $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
-$global-breakpoint: $global-width + $global-gutter;
+// $global-breakpoint: $global-width + $global-gutter;
+// change to 375px after design
+$global-breakpoint: 501px;
 
 // 2. Grid
 // -------
