@@ -5,118 +5,138 @@ subject: Gamestop Order Receipt
 
 <container>
    <row class="shippingNow">
-
       <columns>
+
+         <!-- Section Header -->
          <row class="sectionHeader">
-            <column>
-               <h2>Shipping Now</h2>
-            </column>
-         </row>
-         
-         <row class="sectionSubHeader">
             <columns>
-               <h3>Products</h3>
+               <h2>Shipping Now</h2>
             </columns>
          </row>
 
-         <!-- Products -->
-         <row class="products">
-
-            <!-- product image -->
-            <columns class="productImage" small="2" large="3">
-               <img src="{{root}}/assets/img/images/game.jpg" alt="Ghost of Tsushima Case">
-            </columns>
-
-            <!-- product info -->
-            <columns class="productInfo" small="10" large="9">
-               <row class="itemName">
-                  <columns>
-                     <h3>Ghost of Tsushima Launch Edition</h3>
-                     <p>Platform: Playstation 4</p>
-                     <p>Edition: Launch</p>
-                  </columns>
-               </row>
-
-               <row class="itemPrice">
-                  <columns>
-                     <row>
-                        <columns small="3">
-                           <p>Price</p>
-                        </columns>
-                        <columns small="9">
-                           <p>$59.99</p>
-                        </columns>
-                     </row>
-                     <row>
-                        <columns small="3">
-                           <p>Quantity</p>
-                        </columns>
-                        <columns small="9">
-                           <p>1</p>
-                        </columns>
-                     </row>
-                     <row>
-                        <columns small="3">
-                           <p>Total</p>
-                        </columns>
-                        <columns small="9">
-                           <p>$59.99</p>
-                        </columns>
-                     </row>
-                  </columns>
-               </row>
-
-            </columns>
-         </row> <!--.products-->
-
 
          <!-- Products -->
          <row class="products">
+            <columns>
 
-            <!-- product image -->
-            <columns class="productImage" small="2" large="3">
-               <!-- <img src="{{root}}/assets/img/images/game.jpg" alt="Ghost of Tsushima Case"> -->
-            </columns>
-
-            <!-- product info -->
-            <columns class="productInfo" small="10" large="9">
-               <row class="itemName">
+               <row class="sectionSubHeader">
                   <columns>
-                     <h3>Game Play Guarantee: 1-Year Plan</h3>
+                     <h3>Products</h3>
                   </columns>
-               </row>
+               </row><!--sectionSubHeader-->
 
-               <row class="itemPrice">
-                  <columns>
-                     <row>
-                        <columns small="3">
-                           <p>Price</p>
-                        </columns>
-                        <columns small="9">
-                           <p>$3.00</p>
+
+               <row class="productItems">
+
+                  <columns class="productImage">
+                     <img src="{{root}}/assets/img/images/game.jpg" alt="Ghost of Tsushima Game">
+                  </columns>
+
+                  <columns class="productInfo">
+                     <row class="productName">
+                        <columns>
+                           <h3>Ghost of Tsushima Launch Edition</h3>
+                           <p>Platform: Playstation 4</p>
+                           <p>Edition: Launch</p>
                         </columns>
                      </row>
-                     <row>
-                        <columns small="3">
-                           <p>Total</p>
-                        </columns>
-                        <columns small="9">
-                           <p>$3.00</p>
+
+                     <row class="productPrice">
+                        <columns>
+                           <row>
+                              <columns>
+                                 <p>Price</p>
+                              </columns>
+                              <columns>
+                                 <p>$59.99</p>
+                              </columns>
+                           </row>
+
+                           <row>
+                              <columns>
+                                 <p>Quantity</p>
+                              </columns>
+                              <columns>
+                                 <p>1</p>
+                              </columns>
+                           </row>
+
+                           <row>
+                              <columns class="total">
+                                 <p>Total</p>
+                              </columns>
+                              <columns>
+                                 <p>$59.99</p>
+                              </columns>
+                           </row>
+
                         </columns>
                      </row>
                   </columns>
-               </row>
+
+               </row><!--productItems-->
+
+
+               <row class="productItems">
+                  <columns class="productImage"></columns>
+
+                  <columns class="productInfo">
+                     <row class="productName">
+                        <columns>
+                           <h3>Game Play Guarantee: 1-Year Plan</h3>
+                        </columns>
+                     </row>
+
+                     <row class="productPrice">
+                        <columns>
+                           <row>
+                              <columns>
+                                 <p>Price</p>
+                              </columns>
+                              <columns>
+                                 <p>$3.00</p>
+                              </columns>
+                           </row>
+
+                           <row>
+                              <columns class="total">
+                                 <p>Total</p>
+                              </columns>
+                              <columns>
+                                 <p>$3.00</p>
+                              </columns>
+                           </row>
+
+                        </columns>
+                     </row>
+                  </columns>
+               </row><!--productItems-->
 
             </columns>
-         </row> <!--.products-->
-
+         </row>
 
 
          <!-- Shipping Details -->
          <row class="shippingDetails">
+            <columns>
 
+               <row class="sectionSubHeader">
+                  <columns>
+                     <h3>Shipping Details</h3>
+                  </columns>
+               </row>
+
+               <row class="shippingNote">
+                  <columns>
+                     <p>Standard (Allow 1 business day for processing. Delivers 2-4 business days once shipped.) <span>$7.99</span></p>
+                     <p>For delivery orders, a shipment confirmation email will be sent when your order has shipped.</p>
+                  </columns>
+               </row>
+
+            </columns>
          </row>
 
+
       </columns>
-   </row>
+   </row><!--.shippingNow-->
 </container>
