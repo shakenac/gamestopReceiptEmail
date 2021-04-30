@@ -81,13 +81,13 @@ table.button > tbody > tr > td > table > tbody > tr > td {
 
 ////// SHIPPING NOW
 
+th.section-padding {
+   padding-top: 35px;
+   padding-bottom: 0;
+}
+
 .shippingNow {
    border-top: 1px solid #dad3d2;
-
-   th.section-padding {
-      padding-top: 30px;
-      padding-bottom: 30px;
-   }
 
    .sectionSubHeader {
       background: rgb(246, 246, 246);
@@ -116,7 +116,6 @@ table.button > tbody > tr > td > table > tbody > tr > td {
    }
 
    .shippingDetails {
-
       .shippingNote {
          th.columns {
             padding-left: 20px !important;
@@ -127,5 +126,22 @@ table.button > tbody > tr > td > table > tbody > tr > td {
       }
 
    }
+}
 
+
+////// PROMO CODES
+
+.promoCodes {
+   border-top: 1px solid #dad3d2;
+
+   .promos {
+      p {
+         font-size: 14px;
+      }
+      .codeApplied {
+         p {
+            font-weight: 600;
+         }
+      }
+   }
 }
