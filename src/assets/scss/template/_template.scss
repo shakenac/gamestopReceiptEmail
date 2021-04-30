@@ -20,10 +20,11 @@ table.button > tbody > tr > td > table > tbody > tr > td {
 ////// HEADER
 
 .header {
-   td {
-      padding-top: 30px !important;
-      padding-bottom: 30px !important;
-      border-bottom: 1px solid #dad3d2;
+   border-bottom: 1px solid #dad3d2;
+
+   th {
+      padding-top: 20px !important;
+      padding-bottom: 15px !important;
    }
    img.gamestop-logo  {
       width: 100px;
@@ -51,15 +52,15 @@ table.button > tbody > tr > td > table > tbody > tr > td {
    .orderConInfo {
       .columns {
          padding-bottom: 5px;
-      }
 
-      .orderNum {
-         font-weight: 700;
-         font-size: 16px;
-         margin-bottom: 0;
-      }
-      p {
-         font-size: 12px;
+         .orderNum {
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 0;
+         }
+         p {
+            font-size: 12px;
+         }
       }
    }
 }
