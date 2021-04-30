@@ -53,6 +53,11 @@ table.button > tbody > tr > td > table > tbody > tr > td {
       padding-bottom: 30px;
       padding-left: 30px;
 
+      .thanks {
+         p {
+            font-size: 14px;
+         }
+      }
       .viewEditOrder-btn {
          .columns {
             padding-top: 14px;
@@ -68,9 +73,6 @@ table.button > tbody > tr > td > table > tbody > tr > td {
             font-weight: 700;
             font-size: 16px;
             margin-bottom: 0;
-         }
-         p {
-            font-size: 12px;
          }
       }
    }
