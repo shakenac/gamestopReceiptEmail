@@ -212,7 +212,18 @@ th.section-padding {
 //View Order button
 .viewOrder-btn {
    border-top: 1px solid #dad3d2;
-   // .section-padding {
-   //    align: right;
-   // }
+}
+
+
+////// POWERUP / INTERNATIONAL
+
+.powerUp-international {
+   .section-padding {
+      background: rgb(239, 239, 239);
+      background-color: rgb(239, 239, 239);
+      padding-top: 50px !important;
+      padding-right: 50px !important;
+      padding-bottom: 30px !important;
+      padding-left: 50px !important;
+   }
 }
