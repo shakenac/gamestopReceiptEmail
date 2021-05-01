@@ -39,7 +39,7 @@ table.button > tbody > tr > td > table > tbody > tr > td {
       padding-bottom: 15px !important;
    }
    img.gamestop-logo  {
-      width: 100px;
+      width: 180px;
    }
 }
 
@@ -158,7 +158,6 @@ th.section-padding {
       .fees {
          padding-bottom: 5px;
       }
-
       .finalCost {
          border-top: 1px solid #dad3d2;
 
@@ -197,11 +196,9 @@ th.section-padding {
 //Shipping Address
 .shipAddress {
    .section-padding {
-
       h2 {
          padding-bottom: 0;
       }
-
       p {
          font-size: 14px;
          margin-bottom: 2px;
@@ -217,26 +214,51 @@ th.section-padding {
 
 ////// POWERUP / INTERNATIONAL
 
-.powerUp-international {
-   .section-padding {
+// .powerUp-international {
+//    .section-padding {
+//       background: rgb(239, 239, 239);
+//       background-color: rgb(239, 239, 239);
+//       padding-top: 50px !important;
+//       padding-right: 50px !important;
+//       padding-bottom: 30px !important;
+//       padding-left: 50px !important;
+//    }
+//    h4 {
+//       margin-bottom: 10px;
+//    }
+//    p {
+//       font-size: 13px;
+//    }
+//    span {
+//       text-decoration: underline;
+//    }
+// }
+
+.wrapper {
+   background: rgb(239, 239, 239);
+   background-color: rgb(239, 239, 239);
+   .container {
       background: rgb(239, 239, 239);
       background-color: rgb(239, 239, 239);
+   }
+   .wrapper-inner {
       padding-top: 50px !important;
-      padding-right: 50px !important;
+      padding-right: 30px !important;
       padding-bottom: 30px !important;
-      padding-left: 50px !important;
-   }
+      padding-left: 30px !important;
 
-   h4 {
-      margin-bottom: 10px;
-   }
-   p {
-      font-size: 13px;
-   }
-   span {
-      text-decoration: underline;
+      h4 {
+         margin-bottom: 10px;
+      }
+      p {
+         font-size: 13px;
+      }
+      span {
+         text-decoration: underline;
+      }
    }
 }
+
 @media only screen and (max-width: #{$global-breakpoint}) {
    table.powerUp-international {
       th.section-padding {
