@@ -145,3 +145,34 @@ th.section-padding {
       }
    }
 }
+
+
+////// TOTAL COST
+
+.totalCost {
+   border-top: 1px solid #dad3d2;
+
+   th.section-padding {
+      padding-left: 50%;
+
+      .fees {
+         padding-bottom: 5px;
+      }
+
+      .finalCost {
+         border-top: 1px solid #dad3d2;
+
+         p {
+            font-size: 18px;
+            span {
+               font-weight: 700;
+            }
+         }
+         .columns {
+            padding-top: 15px;
+         }
+      }
+   }
+
+
+}
