@@ -50,7 +50,7 @@ table.button > tbody > tr > td > table > tbody > tr > td {
    th.section-padding {
       padding-top: 30px;
       padding-right: 30px;
-      padding-bottom: 30px;
+      padding-bottom: 20px;
       padding-left: 30px;
 
       .thanks {
@@ -197,17 +197,22 @@ th.section-padding {
 //Shipping Address
 .shipAddress {
    .section-padding {
-      padding-top: 60px !important;
 
       h2 {
-         padding-botttom: 0;   
+         padding-bottom: 0;
       }
 
       p {
          font-size: 14px;
          margin-bottom: 2px;
       }
-
-
    }
+}
+
+//View Order button
+.viewOrder-btn {
+   border-top: 1px solid #dad3d2;
+   // .section-padding {
+   //    align: right;
+   // }
 }
