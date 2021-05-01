@@ -214,27 +214,7 @@ th.section-padding {
 
 ////// POWERUP / INTERNATIONAL
 
-// .powerUp-international {
-//    .section-padding {
-//       background: rgb(239, 239, 239);
-//       background-color: rgb(239, 239, 239);
-//       padding-top: 50px !important;
-//       padding-right: 50px !important;
-//       padding-bottom: 30px !important;
-//       padding-left: 50px !important;
-//    }
-//    h4 {
-//       margin-bottom: 10px;
-//    }
-//    p {
-//       font-size: 13px;
-//    }
-//    span {
-//       text-decoration: underline;
-//    }
-// }
-
-.wrapper {
+.powerUp-international {
    background: rgb(239, 239, 239);
    background-color: rgb(239, 239, 239);
    .container {
@@ -270,18 +250,31 @@ th.section-padding {
 
 
 ////// TERMS / CONDITIONS
-.terms-conditions {
-   .section-padding {
+table.terms-conditions {
+   background: #fff;
+   background-color: #fff;
+   color: #000;
+   .container {
+      background: #fff;
+      background-color: #fff;
+   }
+
+   .wrapper-inner {
+      padding-top: 50px !important;
+      padding-right: 30px !important;
+      padding-bottom: 30px !important;
+      padding-left: 30px !important;
+
+   }
+
+   p {
+      text-align: center;
+   }
+   a {
       color: #000;
-      p {
-         text-align: center;
-      }
-      a {
-         color: #000;
-         text-decoration: underline;
-      }
-      .terms-account {
-         font-size: 14px;
-      }
+      text-decoration: underline;
+   }
+   .terms-account {
+      font-size: 14px;
    }
 }
