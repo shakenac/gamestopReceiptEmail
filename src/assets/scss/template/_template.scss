@@ -226,12 +226,40 @@ th.section-padding {
       padding-bottom: 30px !important;
       padding-left: 50px !important;
    }
+
+   h4 {
+      margin-bottom: 10px;
+   }
+   p {
+      font-size: 13px;
+   }
+   span {
+      text-decoration: underline;
+   }
 }
 @media only screen and (max-width: #{$global-breakpoint}) {
    table.powerUp-international {
       th.section-padding {
-         padding-right: 50px !important;
-         padding-left: 50px !important;
+         padding-right: 40px !important;
+         padding-left: 40px !important;
+      }
+   }
+}
+
+
+////// TERMS / CONDITIONS
+.terms-conditions {
+   .section-padding {
+      color: #000;
+      p {
+         text-align: center;
+      }
+      a {
+         color: #000;
+         text-decoration: underline;
+      }
+      .terms-account {
+         font-size: 14px;
       }
    }
 }
