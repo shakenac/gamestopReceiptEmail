@@ -15,7 +15,6 @@ h2 {
 h3 {
    font-weight: 700;
    margin-bottom: 0;
-   padding: 12px 12px 12px 20px;
 }
 h4 {
    font-weight: 700;
@@ -49,9 +48,7 @@ table.button > tbody > tr > td > table > tbody > tr > td {
 .orderConfirmation {
    th.section-padding {
       padding-top: 30px;
-      padding-right: 30px;
       padding-bottom: 20px;
-      padding-left: 30px;
 
       .thanks {
          p {
@@ -60,8 +57,14 @@ table.button > tbody > tr > td > table > tbody > tr > td {
       }
       .viewEditOrder-btn {
          .columns {
-            padding-top: 14px;
-            padding-bottom: 14px;
+            .button {
+               td > table > tbody > tr > td {
+                  padding-bottom: 9px;
+                  padding-left: 12px;
+                  padding-right: 12px;
+                  padding-top: 9px;
+               }
+            }
          }
       }
    }
@@ -97,6 +100,10 @@ th.section-padding {
       th.columns {
          vertical-align: middle;
          padding-bottom: 0;
+
+         table > tbody > tr > th {
+            padding: 12px 12px 12px 20px;
+         }
       }
    }
 
@@ -124,7 +131,6 @@ th.section-padding {
             font-weight: 600;
          }
       }
-
    }
 }
 
@@ -160,7 +166,6 @@ th.section-padding {
       }
       .finalCost {
          border-top: 1px solid #dad3d2;
-
          p {
             font-size: 18px;
             span {
@@ -209,7 +214,18 @@ th.section-padding {
 //View Order button
 .viewOrder-btn {
    border-top: 1px solid #dad3d2;
+   .columns {
+      .button {
+         tbody > tr > td > table > tbody > tr > td {
+            padding-bottom: 9px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 9px;
+         }
+      }
+   }
 }
+
 
 
 ////// POWERUP / INTERNATIONAL
@@ -226,7 +242,6 @@ th.section-padding {
       padding-right: 30px !important;
       padding-bottom: 30px !important;
       padding-left: 30px !important;
-
       h4 {
          margin-bottom: 10px;
       }
@@ -266,7 +281,6 @@ table.terms-conditions {
       padding-left: 30px !important;
 
    }
-
    p {
       text-align: center;
    }
