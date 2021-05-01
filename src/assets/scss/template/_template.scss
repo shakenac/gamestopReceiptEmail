@@ -227,3 +227,11 @@ th.section-padding {
       padding-left: 50px !important;
    }
 }
+@media only screen and (max-width: #{$global-breakpoint}) {
+   table.powerUp-international {
+      th.section-padding {
+         padding-right: 50px !important;
+         padding-left: 50px !important;
+      }
+   }
+}
