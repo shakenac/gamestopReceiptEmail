@@ -6,8 +6,9 @@ html,
 }
 
 h1 {
-   margin-bottom: 0;
-   padding-bottom: 25px
+   // margin-bottom: 0;
+   // Margin-bottom: 0;
+   // padding-bottom: 25px
 }
 h2 {
    font-weight: 800;
@@ -15,10 +16,12 @@ h2 {
 h3 {
    font-weight: 700;
    margin-bottom: 0;
+   Margin-bottom: 0;
 }
 h4 {
    font-weight: 700;
    margin-bottom: 0;
+   Margin-bottom: 0;
 }
 
 table.button > tbody > tr > td > table > tbody > tr > td {
@@ -47,26 +50,26 @@ table.button > tbody > tr > td > table > tbody > tr > td {
 
 .orderConfirmation {
    th.section-padding {
-      padding-top: 30px;
-      padding-bottom: 20px;
+      padding-top: 30px!important;
+      padding-bottom: 20px !important;
 
       .thanks {
          p {
             font-size: 14px;
          }
       }
-      .viewEditOrder-btn {
-         .columns {
-            .button {
-               td > table > tbody > tr > td {
-                  padding-bottom: 9px;
-                  padding-left: 12px;
-                  padding-right: 12px;
-                  padding-top: 9px;
-               }
-            }
-         }
-      }
+      // .viewEditOrder-btn {
+      //    .columns {
+      //       .button {
+      //          td > table > tbody > tr > td {
+      //             padding-bottom: 9px;
+      //             padding-left: 12px;
+      //             padding-right: 12px;
+      //             padding-top: 9px;
+      //          }
+      //       }
+      //    }
+      // }
    }
    .orderConInfo {
       .columns {
@@ -76,6 +79,7 @@ table.button > tbody > tr > td > table > tbody > tr > td {
             font-weight: 700;
             font-size: 16px;
             margin-bottom: 0;
+            Margin-bottom: 0;
          }
       }
    }
@@ -96,13 +100,16 @@ th.section-padding {
       background: rgb(246, 246, 246);
       background-color: rgb(246, 246, 246);
       margin-bottom: 25px;
+      Margin-bottom: 25px;
 
       th.columns {
          vertical-align: middle;
          padding-bottom: 0;
 
          table > tbody > tr > th {
-            padding: 12px 12px 12px 20px;
+            // REMOVED padding top, bottom, left right
+            // ADDED padding: 11px;
+            padding: 11px !important;
          }
       }
    }
@@ -113,7 +120,9 @@ th.section-padding {
       }
       p {
          margin-top: 3px;
+         Margin-top: 3px;
          margin-bottom: 0;
+         Margin-bottom: 0;
       }
       .total {
          p {
@@ -190,6 +199,7 @@ th.section-padding {
       p {
          font-size: 14px;
          margin-bottom: 3px;
+         Margin-bottom: 3px;
          span {
             font-weight: 800;
             text-transform: uppercase;
@@ -207,6 +217,7 @@ th.section-padding {
       p {
          font-size: 14px;
          margin-bottom: 2px;
+         Margin-bottom: 2px;
       }
    }
 }
@@ -214,16 +225,16 @@ th.section-padding {
 //View Order button
 .viewOrder-btn {
    border-top: 1px solid #dad3d2;
-   .columns {
-      .button {
-         tbody > tr > td > table > tbody > tr > td {
-            padding-bottom: 9px;
-            padding-left: 12px;
-            padding-right: 12px;
-            padding-top: 9px;
-         }
-      }
-   }
+   // .columns {
+   //    .button {
+   //       tbody > tr > td > table > tbody > tr > td {
+   //          padding-bottom: 9px;
+   //          padding-left: 12px;
+   //          padding-right: 12px;
+   //          padding-top: 9px;
+   //       }
+   //    }
+   // }
 }
 
 
@@ -244,6 +255,7 @@ th.section-padding {
       padding-left: 30px !important;
       h4 {
          margin-bottom: 10px;
+         Margin-bottom: 10px;
       }
       p {
          font-size: 13px;
