@@ -249,13 +249,12 @@ th.section-padding {
       background-color: rgb(239, 239, 239);
    }
    .wrapper-inner {
-      padding-top: 50px !important;
-      padding-right: 30px !important;
-      padding-bottom: 30px !important;
-      padding-left: 30px !important;
+      // padding-top: 50px !important;
+      // padding-right: 30px !important;
+      // padding-bottom: 30px !important;
+      // padding-left: 30px !important;
       h4 {
-         margin-bottom: 10px;
-         Margin-bottom: 10px;
+         padding-bottom: 10px;
       }
       p {
          font-size: 13px;
@@ -266,41 +265,40 @@ th.section-padding {
    }
 }
 
-@media only screen and (max-width: #{$global-breakpoint}) {
-   table.powerUp-international {
-      th.section-padding {
-         padding-right: 40px !important;
-         padding-left: 40px !important;
-      }
-   }
-}
+// @media only screen and (max-width: #{$global-breakpoint}) {
+//    table.powerUp-international {
+//       th.section-padding {
+//          padding-right: 40px !important;
+//          padding-left: 40px !important;
+//       }
+//    }
+// }
 
 
 ////// TERMS / CONDITIONS
-table.terms-conditions {
-   background: #fff;
-   background-color: #fff;
+.terms-conditions {
+   background: $dark-gray;
+   background-color: $dark-gray;
    color: #000;
    .container {
-      background: #fff;
-      background-color: #fff;
+      background: $dark-gray;
+      background-color: $dark-gray;
    }
 
    .wrapper-inner {
-      padding-top: 50px !important;
-      padding-right: 30px !important;
-      padding-bottom: 30px !important;
-      padding-left: 30px !important;
-
-   }
-   p {
-      text-align: center;
-   }
-   a {
-      color: #000;
-      text-decoration: underline;
-   }
-   .terms-account {
-      font-size: 14px;
+      // padding-top: 50px !important;
+      // padding-right: 30px !important;
+      // padding-bottom: 30px !important;
+      // padding-left: 30px !important;
+      p {
+         text-align: center;
+      }
+      a {
+         color: #000;
+         text-decoration: underline;
+      }
+      .terms-account {
+         font-size: 14px;
+      }
    }
 }
