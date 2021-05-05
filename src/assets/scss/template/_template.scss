@@ -49,39 +49,20 @@ table.button > tbody > tr > td > table > tbody > tr > td {
 ////// ORDER CONFIRMATION
 
 .orderConfirmation {
-   th.section-padding {
-      padding-top: 30px!important;
-      padding-bottom: 20px !important;
-
-      .thanks {
-         p {
-            font-size: 14px;
-         }
+   // th.section-padding {
+   //    padding-top: 30px!important;
+   //    padding-bottom: 20px !important;
+   // }
+   .thanks {
+      p {
+         font-size: 14px;
       }
-      // .viewEditOrder-btn {
-      //    .columns {
-      //       .button {
-      //          td > table > tbody > tr > td {
-      //             padding-bottom: 9px;
-      //             padding-left: 12px;
-      //             padding-right: 12px;
-      //             padding-top: 9px;
-      //          }
-      //       }
-      //    }
-      // }
    }
-   .orderConInfo {
-      .columns {
-         padding-bottom: 5px;
-
-         .orderNum {
-            font-weight: 700;
-            font-size: 16px;
-            margin-bottom: 0;
-            Margin-bottom: 0;
-         }
-      }
+   .orderNum {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 0;
+      Margin-bottom: 0;
    }
 }
 
